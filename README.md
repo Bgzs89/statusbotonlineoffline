@@ -133,7 +133,7 @@ sleep(30000)                                      -- 30 sec poll interval
 
 ## License
 
-MIT — Free to use, modify, distribute.
+MIT — Free to use, modify, distribute. :)
 
 ---
 
