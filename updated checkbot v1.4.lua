@@ -86,12 +86,10 @@ function sendOrEditStatus(updateStatus)
     end
 end
 
--- Inisialisasi status awal
 for _, bot in pairs(getBots()) do
     prevStatus[bot.name] = bot.status == BotStatus.online
 end
 
--- Main loop
 while true do
     local now = os.time()
     sendOrEditStatus(now - lastStatusUpdate >= 120)
